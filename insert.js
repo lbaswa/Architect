@@ -53,7 +53,7 @@ app.post('/insert',function(req,res)
             if(!err)
             {
                
-                console.log("Record Inserted Successfully");
+                //console.log("Record Inserted Successfully");
                 res.redirect('/CRegister.html');
             }
             else
